@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bxm_express_view_container"
+    style="@style/bxm_sdk_native_express_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/bxm_fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bxm_iv_express_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="195dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/bxm_tv_express_title"
+        style="@style/bxm_tv_express_title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/bxm_tv_ad_mark"
+            style="@style/bxm_ad_mark_tv_stroke_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="ad" />
+
+        <TextView
+            android:id="@+id/bxm_tv_express_subtitle"
+            style="@style/bxm_tv_express_subtitle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/bxm_tv_ad_mark"
+            android:singleLine="true"
+            tools:text="subtitle" />
+
+    </RelativeLayout>
+
+</LinearLayout>
