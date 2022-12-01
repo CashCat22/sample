@@ -14,7 +14,6 @@ import com.dhcw.sdk.BDAdvanceRewardListener;
 
 public class DispatchRewardVideoActivity extends Activity implements View.OnClickListener {
     BDAdvanceRewardAd bdAdvanceRewardAd;
-    private boolean isReady;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -44,7 +43,6 @@ public class DispatchRewardVideoActivity extends Activity implements View.OnClic
             @Override
             public void onAdLoad() {
                 ToastUtils.showToast(DispatchRewardVideoActivity.this, "demo : onAdLoad");
-                isReady = true;
             }
 
             @Override
@@ -91,7 +89,7 @@ public class DispatchRewardVideoActivity extends Activity implements View.OnClic
     }
 
     private void showAd() {
-        if (isReady) {
+        if (bdAdvanceRewardAd != null && bdAdvanceRewardAd.isAdReady()) {
             bdAdvanceRewardAd.showAd();
         }
     }

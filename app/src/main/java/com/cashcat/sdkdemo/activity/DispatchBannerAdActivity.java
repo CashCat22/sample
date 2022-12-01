@@ -33,7 +33,7 @@ public class DispatchBannerAdActivity extends Activity implements View.OnClickLi
         if (view.getId() == R.id.bt_ad_load) {
             loadBannerAd();
         } else if (view.getId() == R.id.bt_show_banner_ad) {
-            if (bdAdvanceBannerAd != null) {
+            if (bdAdvanceBannerAd != null && bdAdvanceBannerAd.isAdReady()) {
                 bdAdvanceBannerAd.showAd();
             }
         }

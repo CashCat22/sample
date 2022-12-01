@@ -15,7 +15,6 @@ import com.dhcw.sdk.BDAdvanceInteractionListener;
 public class DispatchInteractionActivity extends Activity implements View.OnClickListener {
 
     private BDAdvanceInteractionAd bdAdvanceInteractionAd;
-    private boolean isReady;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,7 +29,7 @@ public class DispatchInteractionActivity extends Activity implements View.OnClic
         if (view.getId() == R.id.bt_load_interaction_ad) {
             loadAd();
         } else if (view.getId() == R.id.bt_show_interaction_ad) {
-            if (isReady) {
+            if (bdAdvanceInteractionAd != null && bdAdvanceInteractionAd.isAdReady()) {
                 bdAdvanceInteractionAd.showAd();
             }
         }
@@ -47,7 +46,6 @@ public class DispatchInteractionActivity extends Activity implements View.OnClic
             @Override
             public void onAdSuccess() {
                 ToastUtils.showToast(DispatchInteractionActivity.this, "demo : onAdSuccess");
-                isReady = true;
             }
 
             @Override
@@ -58,7 +56,6 @@ public class DispatchInteractionActivity extends Activity implements View.OnClic
             @Override
             public void onAdFailed(int code, String errMsg) {
                 ToastUtils.showToast(DispatchInteractionActivity.this, "demo : onAdFailed:"+code+","+errMsg);
-                isReady = false;
             }
 
             @Override

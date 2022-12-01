@@ -42,8 +42,10 @@ public class DispatchSplashAdActivity extends Activity implements WeakHandler.IH
 
                     @Override
                     public void onAdSuccess() {
-                        ToastUtils.showToast(DispatchSplashAdActivity.this, "demo : onAdSuccess");
-                        advanceSplashAd.showAd(splashContainer);
+                        if (advanceSplashAd != null && advanceSplashAd.isAdReady()) {
+                            ToastUtils.showToast(DispatchSplashAdActivity.this, "demo : onAdSuccess");
+                            advanceSplashAd.showAd(splashContainer);
+                        }
                     }
 
                     @Override
