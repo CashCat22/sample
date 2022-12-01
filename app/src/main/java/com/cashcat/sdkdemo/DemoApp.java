@@ -1,4 +1,4 @@
-package com.bxm.sdkdemo;
+package com.cashcat.sdkdemo;
 
 import android.app.Application;
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.bxm.sdkdemo">
+    package="com.cashcat.sdkdemo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.bxm.sdkdemo.DemoApp"
+        android:name="com.cashcat.sdkdemo.DemoApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -20,19 +20,19 @@
 
 
         <activity
-            android:name="com.bxm.sdkdemo.activity.DispatchInteractionActivity"
+            android:name="com.cashcat.sdkdemo.activity.DispatchInteractionActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bxm.sdkdemo.activity.DispatchBannerAdActivity"
+            android:name="com.cashcat.sdkdemo.activity.DispatchBannerAdActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bxm.sdkdemo.activity.DispatchRewardVideoActivity"
+            android:name="com.cashcat.sdkdemo.activity.DispatchRewardVideoActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bxm.sdkdemo.activity.DispatchSplashAdActivity"
+            android:name="com.cashcat.sdkdemo.activity.DispatchSplashAdActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
           <!--  <intent-filter>
@@ -42,16 +42,16 @@
             </intent-filter>-->
         </activity>
 
-        <activity android:name=".activity.DispatchNativeRenderAdActivity"
+        <activity android:name="com.cashcat.sdkdemo.activity.DispatchNativeRenderAdActivity"
             android:screenOrientation="portrait" />
 
 
         <activity
-            android:name="com.bxm.sdkdemo.activity.FloatIconActivity"
+            android:name="com.cashcat.sdkdemo.activity.FloatIconActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bxm.sdkdemo.MainActivity"
+            android:name="com.cashcat.sdkdemo.MainActivity"
             android:launchMode="singleTask" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.bxm.sdkdemo.activity;
+package com.cashcat.sdkdemo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
-import com.bxm.sdkdemo.Constants;
-import com.bxm.sdkdemo.R;
-import com.bxm.sdkdemo.ToastUtils;
+import com.cashcat.sdkdemo.Constants;
+import com.cashcat.sdkdemo.R;
+import com.cashcat.sdkdemo.ToastUtils;
 import com.dhcw.sdk.BDAdvanceNativeRenderAd;
 import com.dhcw.sdk.BDAdvanceNativeRenderItem;
 import com.dhcw.sdk.BDAdvanceNativeRenderListener;

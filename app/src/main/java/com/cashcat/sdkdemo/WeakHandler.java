@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.bxm.sdkdemo;
+package com.cashcat.sdkdemo;
 
 import android.os.Handler;
 import android.os.Looper;
