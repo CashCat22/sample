@@ -1,4 +1,4 @@
-package com.bxm.sdkdemo.activity;
+package com.cashcat.sdkdemo.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,11 +9,11 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.Nullable;
 
-import com.bxm.sdkdemo.Constants;
-import com.bxm.sdkdemo.MainActivity;
-import com.bxm.sdkdemo.R;
-import com.bxm.sdkdemo.ToastUtils;
-import com.bxm.sdkdemo.WeakHandler;
+import com.cashcat.sdkdemo.Constants;
+import com.cashcat.sdkdemo.MainActivity;
+import com.cashcat.sdkdemo.R;
+import com.cashcat.sdkdemo.ToastUtils;
+import com.cashcat.sdkdemo.WeakHandler;
 import com.dhcw.sdk.BDAdvanceSplashAd;
 import com.dhcw.sdk.BDAdvanceSplashListener;
 

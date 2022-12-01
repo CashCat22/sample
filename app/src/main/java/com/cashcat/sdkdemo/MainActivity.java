@@ -1,4 +1,4 @@
-package com.bxm.sdkdemo;
+package com.cashcat.sdkdemo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,12 +8,12 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bxm.sdkdemo.activity.DispatchBannerAdActivity;
-import com.bxm.sdkdemo.activity.DispatchInteractionActivity;
-import com.bxm.sdkdemo.activity.DispatchNativeRenderAdActivity;
-import com.bxm.sdkdemo.activity.DispatchRewardVideoActivity;
-import com.bxm.sdkdemo.activity.DispatchSplashAdActivity;
-import com.bxm.sdkdemo.activity.FloatIconActivity;
+import com.cashcat.sdkdemo.activity.DispatchBannerAdActivity;
+import com.cashcat.sdkdemo.activity.DispatchInteractionActivity;
+import com.cashcat.sdkdemo.activity.DispatchNativeRenderAdActivity;
+import com.cashcat.sdkdemo.activity.DispatchRewardVideoActivity;
+import com.cashcat.sdkdemo.activity.DispatchSplashAdActivity;
+import com.cashcat.sdkdemo.activity.FloatIconActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

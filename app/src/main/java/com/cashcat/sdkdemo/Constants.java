@@ -1,4 +1,4 @@
-package com.bxm.sdkdemo;
+package com.cashcat.sdkdemo;
 
 public class Constants {
     public static final String FLOAT_AD_SPOT_ID = "809116001001";
