@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.cashcat.sdkdemo.activity.DispatchBannerAdActivity;
 import com.cashcat.sdkdemo.activity.DispatchInteractionActivity;
+import com.cashcat.sdkdemo.activity.DispatchNativeExpressAdActivity;
 import com.cashcat.sdkdemo.activity.DispatchNativeRenderAdActivity;
 import com.cashcat.sdkdemo.activity.DispatchRewardVideoActivity;
 import com.cashcat.sdkdemo.activity.DispatchSplashAdActivity;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.bt_splash_ad).setOnClickListener(this);
         findViewById(R.id.bt_interaction_ad).setOnClickListener(this);
         findViewById(R.id.bt_feed_ad).setOnClickListener(this);
+        findViewById(R.id.bt_native_ad).setOnClickListener(this);
     }
 
     @Override
@@ -64,6 +66,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt_feed_ad:
                 intent = new Intent(this, DispatchNativeRenderAdActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.bt_native_ad:
+                intent = new Intent(this, DispatchNativeExpressAdActivity.class);
                 startActivity(intent);
                 break;
         }

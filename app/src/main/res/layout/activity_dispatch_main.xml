@@ -46,7 +46,11 @@
             android:layout_height="wrap_content"
             android:text="Reward Ad" />
 
-
+        <Button
+            android:id="@+id/bt_native_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Native Ad" />
 
         <TextView
             android:id="@+id/tv_ver"

@@ -42,9 +42,11 @@
             </intent-filter>-->
         </activity>
 
+        <activity android:name="com.cashcat.sdkdemo.activity.DispatchNativeExpressAdActivity"
+            android:screenOrientation="portrait"/>
+
         <activity android:name="com.cashcat.sdkdemo.activity.DispatchNativeRenderAdActivity"
             android:screenOrientation="portrait" />
-
 
         <activity
             android:name="com.cashcat.sdkdemo.activity.FloatIconActivity"

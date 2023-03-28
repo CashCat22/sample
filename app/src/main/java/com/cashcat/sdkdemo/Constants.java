@@ -7,4 +7,5 @@ public class Constants {
     public static final String BANNER_AD_SPOT_ID = "809116001004";
     public static final String INTERACTION_AD_SPOT_ID = "809116001005";
     public static final String REWARD_AD_SPOT_ID = "809116001006";
+    public static final String Native_AD_SPOT_ID = "809116001015";
 }

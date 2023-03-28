@@ -8,19 +8,14 @@
         android:id="@+id/bt_load_express_ad"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
         android:text="load ad" />
-    <Button
-        android:id="@+id/bt_feed_ad"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="custom button"/>
-
 
     <FrameLayout
-        android:id="@+id/advance_native_ad_container"
-        android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:id="@+id/fl_ad_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
-
